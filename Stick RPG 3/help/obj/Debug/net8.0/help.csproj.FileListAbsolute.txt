@@ -1,0 +1,28 @@
+Z:/Desktop Files/help/bin/Debug/net8.0/help.exe
+Z:/Desktop Files/help/bin/Debug/net8.0/help.deps.json
+Z:/Desktop Files/help/bin/Debug/net8.0/help.runtimeconfig.json
+Z:/Desktop Files/help/bin/Debug/net8.0/help.dll
+Z:/Desktop Files/help/bin/Debug/net8.0/help.pdb
+Z:/Desktop Files/help/obj/Debug/net8.0/help.GeneratedMSBuildEditorConfig.editorconfig
+Z:/Desktop Files/help/obj/Debug/net8.0/help.AssemblyInfoInputs.cache
+Z:/Desktop Files/help/obj/Debug/net8.0/help.AssemblyInfo.cs
+Z:/Desktop Files/help/obj/Debug/net8.0/help.csproj.CoreCompileInputs.cache
+Z:/Desktop Files/help/obj/Debug/net8.0/help.dll
+Z:/Desktop Files/help/obj/Debug/net8.0/refint/help.dll
+Z:/Desktop Files/help/obj/Debug/net8.0/help.pdb
+Z:/Desktop Files/help/obj/Debug/net8.0/help.genruntimeconfig.cache
+Z:/Desktop Files/help/obj/Debug/net8.0/ref/help.dll
+/Users/hamheadon/Projects/help/bin/Debug/net8.0/help
+/Users/hamheadon/Projects/help/bin/Debug/net8.0/help.deps.json
+/Users/hamheadon/Projects/help/bin/Debug/net8.0/help.runtimeconfig.json
+/Users/hamheadon/Projects/help/bin/Debug/net8.0/help.dll
+/Users/hamheadon/Projects/help/bin/Debug/net8.0/help.pdb
+/Users/hamheadon/Projects/help/obj/Debug/net8.0/help.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hamheadon/Projects/help/obj/Debug/net8.0/help.AssemblyInfoInputs.cache
+/Users/hamheadon/Projects/help/obj/Debug/net8.0/help.AssemblyInfo.cs
+/Users/hamheadon/Projects/help/obj/Debug/net8.0/help.csproj.CoreCompileInputs.cache
+/Users/hamheadon/Projects/help/obj/Debug/net8.0/help.dll
+/Users/hamheadon/Projects/help/obj/Debug/net8.0/refint/help.dll
+/Users/hamheadon/Projects/help/obj/Debug/net8.0/help.pdb
+/Users/hamheadon/Projects/help/obj/Debug/net8.0/help.genruntimeconfig.cache
+/Users/hamheadon/Projects/help/obj/Debug/net8.0/ref/help.dll
