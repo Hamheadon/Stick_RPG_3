@@ -1,5 +1,5 @@
 ﻿using System;
-namespace help.Model;
+namespace Scripts.Model;
 
 public class User
 {

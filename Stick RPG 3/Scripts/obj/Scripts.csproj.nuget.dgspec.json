@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hamheadon/Projects/rpg3/StickRPG3/Stick RPG 3/help/help.csproj": {}
+    "/Users/hamheadon/Projects/Scripts/Scripts.csproj": {}
   },
   "projects": {
-    "/Users/hamheadon/Projects/rpg3/StickRPG3/Stick RPG 3/help/help.csproj": {
+    "/Users/hamheadon/Projects/Scripts/Scripts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hamheadon/Projects/rpg3/StickRPG3/Stick RPG 3/help/help.csproj",
-        "projectName": "help",
-        "projectPath": "/Users/hamheadon/Projects/rpg3/StickRPG3/Stick RPG 3/help/help.csproj",
+        "projectUniqueName": "/Users/hamheadon/Projects/Scripts/Scripts.csproj",
+        "projectName": "Scripts",
+        "projectPath": "/Users/hamheadon/Projects/Scripts/Scripts.csproj",
         "packagesPath": "/Users/hamheadon/.nuget/packages/",
-        "outputPath": "/Users/hamheadon/Projects/rpg3/StickRPG3/Stick RPG 3/help/obj/",
+        "outputPath": "/Users/hamheadon/Projects/Scripts/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/hamheadon/.nuget/NuGet/NuGet.Config"

@@ -1,4 +1,4 @@
-namespace help.Model;
+namespace Scripts.Model;
 using System.Collections.Generic;
 
 public class Job{
