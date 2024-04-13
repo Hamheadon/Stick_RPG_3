@@ -2,4 +2,3 @@
 Stick Rpg 3's GitHub repo
 
 https://cerealeaterxa2.itch.io/stick-rpg-3
-Password (for now): StickRanger2
