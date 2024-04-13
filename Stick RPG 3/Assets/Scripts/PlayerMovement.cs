@@ -34,9 +34,13 @@ public class PlayerMovement : MonoBehaviour
     {
         if (_input != Vector3.zero)
         {
-            var matrix = Matrix4x4.Rotate(Quaternion.Euler(0, 45, 0));
+            //var matrix = Matrix4x4.Rotate(Quaternion.Euler(0, 45, 0));
+
+            //var skewedInput = matrix.MultiplyPoint3x4(_input);
+            var matrix = Matrix4x4.Rotate(Quaternion.Euler(0, 90, 0)); // for that authentic isometric experience
 
             var skewedInput = matrix.MultiplyPoint3x4(_input);
+            //var skewedInput = _input;
 
             var relative = (transform.position + skewedInput) - transform.position;
             var rot = Quaternion.LookRotation(relative, Vector3.up);
