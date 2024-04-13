@@ -7,23 +7,23 @@ public class PlayerMovement : MonoBehaviour
 {
     Vector3 _input;
     Rigidbody _rb;
-    [SerializeField] float _moveSpeed;
-    [SerializeField] float _turnSpeed = 360;
-
+    [SerializeField] float _moveSpeed; // game units per second at max speed
+    [SerializeField] float _turnSpeed = 360; // degrees per second
+    // turning radius is (_moveSpeed/2pi)/(_turnSpeed/360)
 
     private void Start()
     {
-        _rb = GetComponent<Rigidbody>();
+        _rb = GetComponent<Rigidbody>(); 
     }
     private void Update()
     {
-        GatherInput();
-        Look();
+        GatherInput(); // set the input direction
+        Look(); // turn towards the correct direction
     }
 
     private void FixedUpdate()
     {
-        Move();
+        Move(); // go forward
     }
     void GatherInput()
     {
