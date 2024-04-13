@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody _rb;
     [SerializeField] float _moveSpeed; // game units per second at max speed
     [SerializeField] float _turnSpeed = 360; // degrees per second
+    [SerializeField] float _xBound = 30;
+    [SerializeField] float _zBound = 30;
     // turning radius is (_moveSpeed/2pi)/(_turnSpeed/360)
 
     private void Start()
@@ -51,6 +53,23 @@ public class PlayerMovement : MonoBehaviour
 
     void Move()
     {
-        _rb.MovePosition(transform.position + (transform.forward * _input.magnitude) * _moveSpeed * Time.deltaTime);
+        var newPos = transform.position + (transform.forward * _input.magnitude) * _moveSpeed * Time.deltaTime;
+        if (newPos.x >= _xBound/2f)
+        {
+            newPos.x = _xBound/2f;
+        }
+        if (newPos.x <= -_xBound/2f)
+        {
+            newPos.x = -_xBound/2f;
+        }
+        if (newPos.z >= _zBound/2f)
+        {
+            newPos.z = _zBound/2f;
+        }
+        if (newPos.z <= -_zBound/2f)
+        {
+            newPos.z = -_zBound/2f;
+        }
+        _rb.MovePosition(newPos);
     }
 }

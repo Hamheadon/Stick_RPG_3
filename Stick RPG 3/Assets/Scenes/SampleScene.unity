@@ -685,6 +685,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _moveSpeed: 5
   _turnSpeed: 360
+  _xBound: 30
+  _zBound: 30
 --- !u!1 &1546328087
 GameObject:
   m_ObjectHideFlags: 0
